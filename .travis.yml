@@ -1,5 +1,5 @@
 language: ruby
 rvm:
   - 1.9.3
-  - 1.9.3-p0
+  - 1.9.3-p194
 script: bundle exec rake db:drop db:create db:migrate spec
